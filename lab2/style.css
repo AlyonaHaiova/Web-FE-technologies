@@ -1,60 +1,119 @@
+/* General styles */
 .circle {border-radius: 50%;}
 
-.outer_circle {
-    height: 270px;
-    width: 270px;
-    margin-top: 50px;
-    background-color: gray;
-    position: relative;
+.circle_with_relative_position{
+   position: relative;
 }
 
-.white_circle {
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    position: absolute;
-    left: 32%;
-    top: 32%;
+.circle_with_absolute_position{
+   position: absolute;
+}
+
+.outer_circle {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    background-color: gray;
 }
 
 .small_white_circle {
-    height: 70px;
-    width: 70px;
+   height: 80px;
+   width: 80px;
+   background-color: white;
+}
+
+/* For first image only (position) */
+
+.white_circle_with_absolute_position {
+   height: 120px;
+   width: 120px;
+   background-color: white;
+   position: absolute;
+   left: 30%;
+   top: 30%;
+}
+
+.deg0 {
+   left: 85%;
+   top: 35%;
+}
+
+.deg45 {
+   left: 70%;
+   top: 0;
+}
+
+.deg90 {
+   left: 37%;
+   top: -10%;
+}
+
+.deg135 {
+   left: 3%;
+   top: 3%;
+}
+
+.deg180 {
+   position: absolute;
+   left: -15%;
+   top: 35%;
+}
+
+.deg225 {
+   left: 0;
+   top: 70%;
+}
+
+.deg270 {
+   left: 37%;
+   top: 85%;
+}
+
+.deg315 {
+   left: 75%;
+   top: 70%;
+}
+
+
+/* For second image only (transform) */
+
+.white_circle_transformed {
+    height: 120px;
+    width: 120px;
     background-color: white;
-    position: absolute;
-    left: 37%;
-    top: 37%;
+    transform: translate(75%, 75%);
 }
 
 .deg-0 {
-    transform:translate(140px)
+     transform: translate(320%, -15%); 
  }
  
  .deg-45 {
-    transform:rotate(46deg) translate(140px) rotate(-46deg);
+     transform: translate(260%, -240%); 
+    
  }
  
  .deg-90 {
-    transform:rotate(91deg) translate(140px) rotate(-91deg);
+     transform: translate(135%, -390%)
  }
  
  .deg-135 {
-    transform:rotate(136deg) translate(140px) rotate(-136deg);
+    transform: translate(0, -440%)
  }
  
  .deg-180 {
-    transform:rotate(181deg) translate(140px) rotate(-181deg);
+   transform: translate(-50%, -415%)
  }
  
  .deg-225 {
-    transform:rotate(226deg) translate(140px) rotate(-226deg);
+   transform: translate(10%, -385%)
  }
  
  .deg-270 {
-    transform:rotate(271deg) translate(140px) rotate(-271deg);
+   transform: translate(145%, -430%);
  }
  
  .deg-315 {
-    transform:rotate(316deg) translate(140px) rotate(-316deg);
+   transform: translate(275%, -580%); 
  }
 
