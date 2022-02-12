@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+body {
+    font: 1.2em "Fira Sans", sans-serif;
+}
+
+p {
+    padding: 3%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    position:relative;
+    background-color: rgb(233, 233, 77);
+}
+
+.header {
+    background-color: rgb(143, 235, 235);
+}
+
+.text > p {
+    padding: 2% 2% 1% 2%;
+}
+
+.text > h4 {
+    padding-top: 2%;
+}
+
+.footer {
+    display: inline-block; 
+    width: 100%; 
+}
+
+.footer-text {
+    width: 75%;
+    float: left;
+    clear: left;
+    background-color: rgb(231, 176, 75);
+}
+
+.footer-text > p {
+    padding: 2%;
+}
+
+#img1 {
+    float: left;
+    width: 30%; 
+    padding: 0 2% 0 0;
+}
+
+#img2 {
+    float: right;
+    width: 25%;
+}
