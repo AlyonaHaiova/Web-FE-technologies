@@ -1,0 +1,94 @@
+.header > p, h1 {
+    background-color: transparent;
+}
+.header {
+    background: rgba(52, 46, 46, 0.7) url("../images/img1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+    color: #FFF;
+}
+
+.nav a {
+    color:#FFF;
+    text-decoration: none;
+}
+.nav a:hover {
+    color:#FFF;
+    text-decoration: underline;
+}
+.nav a:visited {
+    color:#FFF;
+    text-decoration: none;
+}
+.navbar-brand a{
+    font-size: 2.2rem;
+    padding-left: 2rem;
+    text-decoration: none;
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+
+.navbar-content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 1rem!important;
+}
+.auth {
+    margin-top: 1rem!important;
+    text-align: right;
+}
+
+.heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.header-content {
+    margin-top: 5%!important;
+    margin-bottom: 5%;
+}
+
+.register-btn {
+    width: 25%;
+    height: 25%;
+    color: #FFFFFF;
+    border: none;
+}
+
+@media(max-width: 768px) {
+    .header {
+        height: 80vh;
+    }
+    .navbar-brand {
+        margin-top: 1rem!important;
+    }
+    .navbar-brand a {
+        font-size: 1.2rem;
+    }
+    .heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 480px) {
+    .header {
+        height: 50vh;
+    }
+    .navbar-brand {
+        text-align: center;
+    }
+    .navbar-brand a {
+        padding-left: 0;
+        font-size: 1.2rem;
+    }
+    .heading {
+        font-size: 1.3rem;
+    }
+    .header-content {
+        margin-top: 10%!important;
+        margin-bottom: 5%;
+    }
+}

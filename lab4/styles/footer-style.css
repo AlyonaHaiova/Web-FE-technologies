@@ -1,0 +1,18 @@
+.footer {
+    background: linear-gradient(#F47121E6, #F47121E6), url("../images/img1.jpg") no-repeat fixed center center;
+    background-size: cover;
+}
+
+.comment {
+    margin-left: 2rem;
+    padding: 2rem;
+}
+.comment-text > p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.user-photo {
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
